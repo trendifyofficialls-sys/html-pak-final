@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Pakworx</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="logo">
+      <span class="logo-mark"></span>
+      <span class="logo-text">Pakworx</span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a href="contact.html" class="cta-link">Let's Talk ↗</a>
+      <button class="menu-toggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <a href="contact.html" class="mobile-cta">Let's Talk ↗</a>
+  </div>
+
+  <main>
+    <section class="contact-layout">
+      <div class="contact-info">
+        <p class="eyebrow">Contact</p>
+        <h1>Let's<br />talk.</h1>
+        <p>Tell us what you're making, or what you can't quite name yet. We'll read it carefully.</p>
+        <dl>
+          <div>
+            <dt>Email</dt>
+            <dd><a href="mailto:hello@pakworx.com">hello@pakworx.com</a></dd>
+          </div>
+          <div>
+            <dt>Phone</dt>
+            <dd><a href="tel:+923008482910">+92 300 848 2910</a></dd>
+          </div>
+          <div>
+            <dt>Studio</dt>
+            <dd>Gulberg III, Lahore<br />Pakistan</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="contact-form-wrapper">
+        <form id="contact-form">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            <span>Phone</span>
+            <input type="tel" name="phone" />
+          </label>
+          <label>
+            <span>Service</span>
+            <select name="service" required>
+              <option value="" disabled selected>Select a discipline</option>
+              <option>Video</option>
+              <option>Design</option>
+              <option>Branding</option>
+              <option>Digital</option>
+              <option>Content</option>
+              <option>Growth</option>
+              <option>Not sure yet</option>
+            </select>
+          </label>
+          <label>
+            <span>Project details</span>
+            <textarea name="details" rows="5" placeholder="What are you trying to make, and why now?" required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+
+        <div id="form-success" style="display:none;">
+          <h2>Received.</h2>
+          <p>Thank you. Someone from the studio will write back. If it's urgent, call us.</p>
+          <button onclick="resetForm()" class="btn-text">Send another</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <p class="eyebrow light">Creative & Media — Lahore</p>
+        <h2>Pakworx</h2>
+        <p>A studio for brands that refuse to blend in. We design identities, make films, and build digital worlds with a point of view.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <p class="eyebrow light">Navigate</p>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="eyebrow light">Studio</p>
+          <ul>
+            <li><a href="mailto:hello@pakworx.com">hello@pakworx.com</a></li>
+            <li><a href="tel:+923008482910">+92 300 848 2910</a></li>
+            <li>Gulberg III, Lahore<br />Pakistan</li>
+          </ul>
+        </div>
+        <div>
+          <p class="eyebrow light">Follow</p>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Behance</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Pakworx. All rights reserved.</p>
+      <p>Designed and built with intent.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
