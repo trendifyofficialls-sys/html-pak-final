@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Pakworx</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="logo">
+      <span class="logo-mark"></span>
+      <span class="logo-text">Pakworx</span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a href="contact.html" class="cta-link">Let's Talk ↗</a>
+      <button class="menu-toggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="contact.html" class="mobile-cta">Let's Talk ↗</a>
+  </div>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Journal</p>
+      <h1>Notes on<br />making.</h1>
+    </section>
+
+    <section class="featured-article">
+      <a href="#" class="featured-link">
+        <div class="featured-image">
+          <img src="https://images.pexels.com/photos/11216321/pexels-photo-11216321.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Why brands fail" />
+        </div>
+        <div class="featured-content">
+          <p class="eyebrow accent">Featured · Branding</p>
+          <h2>Why brands fail when they skip the feeling</h2>
+          <p>Most identities die of politeness. They are correct, complete, and completely forgettable. Feeling is not a luxury — it is the work.</p>
+          <p class="meta">12 Mar 2026 · 7 min read</p>
+        </div>
+      </a>
+    </section>
+
+    <section class="blog-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="branding">Branding</button>
+      <button class="filter-btn" data-filter="design">Design</button>
+      <button class="filter-btn" data-filter="content">Content</button>
+      <button class="filter-btn" data-filter="digital">Digital</button>
+    </section>
+
+    <section class="blog-grid">
+      <article class="blog-card" data-category="design">
+        <img src="/images/branding .png" alt="The quiet power of a single typeface" />
+        <p class="eyebrow accent">Design</p>
+        <h3>The quiet power of a single typeface</h3>
+        <p>Restraint is not a lack of ideas. Sometimes the most confident system is one family of letters, used with complete conviction.</p>
+        <p class="meta">28 Feb 2026 · 5 min</p>
+      </article>
+      <article class="blog-card" data-category="content">
+        <img src="https://images.pexels.com/photos/28863302/pexels-photo-28863302.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Shooting for stillness" />
+        <p class="eyebrow accent">Content</p>
+        <h3>Shooting for stillness in a noisy feed</h3>
+        <p>Social does not require speed. It requires a frame someone would pause for. Stillness is a strategy.</p>
+        <p class="meta">09 Feb 2026 · 6 min</p>
+      </article>
+      <article class="blog-card" data-category="branding">
+        <img src="https://images.pexels.com/photos/3850210/pexels-photo-3850210.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Strategy is a creative act" />
+        <p class="eyebrow accent">Branding</p>
+        <h3>Strategy is a creative act</h3>
+        <p>A strategy deck that cannot be felt is not finished. The best thinking arrives as an image, a line, a constraint.</p>
+        <p class="meta">21 Jan 2026 · 8 min</p>
+      </article>
+      <article class="blog-card" data-category="digital">
+        <img src="/images/Saanjh.png" alt="What we look for" />
+        <p class="eyebrow accent">Digital</p>
+        <h3>What we look for in a brief</h3>
+        <p>A good brief is not a list of deliverables. It is a tension, a problem, a reason the work needs to exist.</p>
+        <p class="meta">04 Jan 2026 · 4 min</p>
+      </article>
+      <article class="blog-card" data-category="content">
+        <img src="https://images.pexels.com/photos/13629907/pexels-photo-13629907.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Lahore as a creative context" />
+        <p class="eyebrow accent">Content</p>
+        <h3>Lahore as a creative context</h3>
+        <p>We work from a city with a long memory for craft, ceremony, and spectacle. That history is not a backdrop. It is a resource.</p>
+        <p class="meta">02 Dec 2025 · 7 min</p>
+      </article>
+      <article class="blog-card" data-category="design">
+        <img src="https://images.pexels.com/photos/19222080/pexels-photo-19222080.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Art direction is a series of refusals" />
+        <p class="eyebrow accent">Design</p>
+        <h3>Art direction is a series of refusals</h3>
+        <p>Taste is not what you add. It is what you will not allow in the frame.</p>
+        <p class="meta">11 Nov 2025 · 5 min</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <p class="eyebrow light">Creative & Media — Lahore</p>
+        <h2>Pakworx</h2>
+        <p>A studio for brands that refuse to blend in. We design identities, make films, and build digital worlds with a point of view.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <p class="eyebrow light">Navigate</p>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="eyebrow light">Studio</p>
+          <ul>
+            <li><a href="mailto:pakworx.official@gmail.com">pakworx.official@gmail.com</a></li>
+            <li><a href="tel:+923249883040">+92 324 988 3040</a></li>
+            <li>Gulberg III, Lahore<br />Pakistan</li>
+          </ul>
+        </div>
+        <div>
+          <p class="eyebrow light">Follow</p>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Behance</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Pakworx. All rights reserved.</p>
+      <p>Designed and built with intent.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
